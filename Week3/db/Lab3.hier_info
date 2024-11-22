@@ -1,0 +1,16 @@
+|Lab3
+a => comb.IN0
+a => comb.IN0
+a => led1.DATAIN
+b => comb.IN0
+b => comb.IN1
+b => led2.DATAIN
+c => comb.IN1
+c => comb.IN1
+c => led3.DATAIN
+led1 << a.DB_MAX_OUTPUT_PORT_TYPE
+led2 << b.DB_MAX_OUTPUT_PORT_TYPE
+led3 << c.DB_MAX_OUTPUT_PORT_TYPE
+x << x.DB_MAX_OUTPUT_PORT_TYPE
+
+
