@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity Lab3 is
+port ( a, b, c 			: in bit;
+		led1, led2, led3  : out bit;
+		 e, f, m, g, x 	: out bit);
+end Lab3;
+
+architecture lab of Lab3 is
+begin
+led1 <= a;
+led2 <= b;
+led3 <= c;
+e <= c and b;
+f <= a and c;
+m <= a and b;
+g <= e or f;
+x <= g or m;
+end lab;
