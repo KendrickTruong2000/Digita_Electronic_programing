@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/Week7POS/simulation/qsim
+vhard_block
+Z1 !s110 1729187872
+!i10b 1
+!s100 VEeBGgKS5zl9h@LYB7kO23
+I6NI]EoP?8:46e5PM2P36?3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1729187870
+Z4 8Lab7.vo
+Z5 FLab7.vo
+L0 243
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1729187872.000000
+Z8 !s107 Lab7.vo|
+Z9 !s90 -work|work|Lab7.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLab7
+R1
+!i10b 1
+!s100 8k4TZbM:KzRDe_XcTV:Oj2
+Iga2J[i7GY:^aUXBLHli?C1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@lab7
+vLab7_vlg_vec_tst
+R1
+!i10b 1
+!s100 I]^a;m^004XAjn0[W14kP0
+If6kML`JbVLQ@`fG_T>JfJ1
+R2
+R0
+w1729187869
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@lab7_vlg_vec_tst
