@@ -1,0 +1,10 @@
+|Exercise
+a => Y.IN0
+a => Y.IN0
+b => Y.IN1
+b => Y.IN0
+c => Y.IN1
+c => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
