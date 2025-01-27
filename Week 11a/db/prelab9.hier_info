@@ -1,0 +1,16 @@
+|prelab9
+A => process_0.IN0
+A => process_0.IN0
+A => process_0.IN0
+B => process_0.IN1
+B => process_0.IN1
+B => process_0.IN1
+C => process_0.IN1
+C => process_0.IN1
+C => process_0.IN1
+D => process_0.IN1
+D => process_0.IN1
+D => process_0.IN1
+Y << Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
