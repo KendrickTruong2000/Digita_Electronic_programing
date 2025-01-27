@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity BCDdecoder is
+	port (
+		A, B, C, D: in bit
+		a, b, c, d, e, f, g: out bit);
+end BCDdecoder;
+
+architecture sevenSeg of BCDdecoder
