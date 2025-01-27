@@ -1,0 +1,43 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do InClassExersice_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/Week11Theory/InClassExersice.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:05:02 on Nov 15,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/Week11Theory/InClassExersice.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity InClassExersice
+# -- Compiling architecture dataflow of InClassExersice
+# End time: 10:05:02 on Nov 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.inclassexersice
+# vsim work.inclassexersice 
+# Start time: 10:05:11 on Nov 15,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.inclassexersice(dataflow)
+add wave -position end  sim:/inclassexersice/A
+add wave -position end  sim:/inclassexersice/B
+add wave -position end  sim:/inclassexersice/Cin
+add wave -position end  sim:/inclassexersice/Cin
+add wave -position end  sim:/inclassexersice/sum
+add wave -position end  sim:/inclassexersice/Cout
+force -freeze sim:/inclassexersice/Cin 1 0, 0 {50 ps} -r 100
+force -freeze sim:/inclassexersice/B 1 0, 0 {100 ps} -r 200
+force -freeze sim:/inclassexersice/A 1 0, 0 {200 ps} -r 400
+run
+# End time: 10:08:39 on Nov 15,2024, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 0
