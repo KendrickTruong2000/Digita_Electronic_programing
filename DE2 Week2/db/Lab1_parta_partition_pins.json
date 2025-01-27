@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sega",
+					"strict" : false
+				},
+				{
+					"name" : "segb",
+					"strict" : false
+				},
+				{
+					"name" : "segc",
+					"strict" : false
+				},
+				{
+					"name" : "segd",
+					"strict" : false
+				},
+				{
+					"name" : "sege",
+					"strict" : false
+				},
+				{
+					"name" : "segf",
+					"strict" : false
+				},
+				{
+					"name" : "segg",
+					"strict" : false
+				},
+				{
+					"name" : "sw1",
+					"strict" : false
+				},
+				{
+					"name" : "key0",
+					"strict" : false
+				},
+				{
+					"name" : "sw3",
+					"strict" : false
+				},
+				{
+					"name" : "sw2",
+					"strict" : false
+				},
+				{
+					"name" : "sw0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
