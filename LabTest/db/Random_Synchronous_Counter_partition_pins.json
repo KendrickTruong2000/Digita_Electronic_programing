@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sega",
+					"strict" : false
+				},
+				{
+					"name" : "segb",
+					"strict" : false
+				},
+				{
+					"name" : "segc",
+					"strict" : false
+				},
+				{
+					"name" : "segd",
+					"strict" : false
+				},
+				{
+					"name" : "sege",
+					"strict" : false
+				},
+				{
+					"name" : "segf",
+					"strict" : false
+				},
+				{
+					"name" : "segg",
+					"strict" : false
+				},
+				{
+					"name" : "sysclk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
